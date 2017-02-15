@@ -36,7 +36,7 @@
                                 <span class="input-group-addon">
                                     <span class="glyphicon glyphicon-link" aria-hidden="true"></span>
                                 </span>
-                                <input type="text" name="url" id="url" placeholder="" class="form-control" pattern="https?:\/\/(?:www\.|(?!www))[^\s\.]+\.[^\s]{2,}|www\.[^\s]+\.[^\s]{2,}" value="{{domain}}" />
+                                <input type="url" name="url" id="url" placeholder="" class="form-control" pattern="https?:\/\/(?:www\.|(?!www))[^\s\.]+\.[^\s]{2,}|www\.[^\s]+\.[^\s]{2,}" value="{{domain}}" />
                                 <span class="input-group-btn">
                                     <button type="submit" class="btn btn-primary" id="btn" >
                                             <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> SHORT
@@ -60,6 +60,8 @@ Fields: { "url": "[URL]" }
 </pre>
                         <p>Return response</p>
                         <pre id="result">{ url }</pre>
+                    	<p>Regular expression</p>
+                    	<code>https?:\/\/(?:www\.|(?!www))[^\s\.]+\.[^\s]{2,}|www\.[^\s]+\.[^\s]{2,}</code>
                     </div>
                 </div>
             </div>
