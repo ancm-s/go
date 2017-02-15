@@ -1,0 +1,25 @@
+{
+  "name": "shorturl",
+  "version": "1.0.0",
+  "description": "\"shorturl\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "anCMS",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "dotenv": "2.0.0",
+    "finalhandler": "0.4.1",
+    "helmet": "^2.1.0",
+    "level": "1.4.0",
+    "level-sublevel": "6.5.4",
+    "mustache": "^2.3.0",
+    "number-format": "^0.1.2",
+    "router": "1.1.4",
+    "shortid": "2.2.6",
+    "socket.io": "^1.7.2"
+  }
+}
