@@ -1,2 +1,2 @@
 # go
-like goo.gl
+like goo.gl => http://go.clgt.io/
